@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+/* body {
+  font-family: 'Lato', Arial, sans-serif;
+  color: #6b6b6b;
+  font-size: 17px;
+  line-height: 1.6;
+} */
+.hero {
+  position: relative;
+  height: 60vh;
+  z-index: -2;
+  background: url("https://unsplash.it/2000/800?image=563") center top/cover no-repeat;
+}
+.overlay {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+}
+ .main-content {
+  background: #f2f2f2;
+} 
+ section {
+  background: #fff;
+  padding: 4rem 0 7rem;
+} 
+section:nth-child(even) {
+  background: #f5f5f5;
+} 
+ h2,
+h3 {
+  padding: 2rem 0 0.75rem;
+  font-weight: 700;
+  color: #4b4b4b;
+} 
+/* ===================================== */
+/* ===== THE INTERESTING STUFF NOW ===== */
+/* ===================================== */
+.navbar {
+  border: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+/* --- navbar sizes --- */
+/* --- navbar colors --- */
+}
+.navbar-brand {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #4b4b4b;
+}
+.navbar--size--xl {
+  padding: 4rem 0;
+}
+.navbar--size--lg {
+  padding: 2rem 0;
+}
+.navbar--size--md {
+  padding: 1rem 0;
+}
+.navbar--size--sm {
+  padding: 0;
+}
+.navbar--color--white {
+  background: #fff;
+}
+.navbar--color--primary {
+  background: #37ca7e;
+}
+.navbar--color--secondary {
+  background: #f9fbff;
+  box-shadow: 0 7px 4px -4px rgba(0, 0, 0, 0.05) !important; 
+}
+.navbar--color--ghost {
+  background: rgba(0,0,0,0.0);
+}
+.navbar--color--ghost .navbar-brand,
+.navbar--color--ghost .navbar-text,
+.navbar--color--ghost a {
+  color: #fff;
+}
+
+
+
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  /* remove the gradient */
+  background-image: none !important;
+  border-bottom: 2px solid dodgerblue !important;
+  line-height: 10px !important;
+  box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.navbar-inner li {
+  line-height: 10px;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+    color:#a5a5a5 !important;
+  border-top: 4px solid rgba(0, 0, 0, 0.0);
+  transition: border-top .3s;
+}
+
+.nav-link:hover {
+  /* color:white !important; */
+  border-top: 4px solid dodgerblue;
+}
+
+
+.brand {
+  letter-spacing: 4px;
+  border-top: 4px solid white;
+  transition: border-top .3s;
+}
+
+.brand:hover {
+  border-top: 4px solid dodgerblue;
+}
+
+.brand:hover {
+  border-top: 4px solid dodgerblue;
+}
+
+
+/* @media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+} */
+
+
+/* .demo-video-wrapper {
+  background-image: url(https://d3k5xyayaartr5.cloudfront.net/_assets/home-video/beach-waves-loop.jpg);
+} */
+
+/* Video overlay and content */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  /* Allows right click menu on the video */
+  /* background: url("https://d3k5xyayaartr5.cloudfront.net/_assets/pattern-overlays/patterns/black-medium-checks.png") left top repeat; */
+  opacity: 0.3;
+}
+
+.video-hero--content {
+  position: relative;
+  text-align: center;
+  color: #FFF;
+  margin: 150px 0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.video-hero--content h2 {
+  font-size: 34px;
+  margin: 0 0 10px;
+}
+
+.video-hero--content p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* Other stuff */
+/* body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #666;
+} */
+
+a {
+  text-decoration: none;
+  color: #a46497;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.page-width {
+  width: 92%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  background: #2c2d33;
+  padding: 2em 0;
+}
+
+#header a {
+  color: #FFF;
+}
+
+.title {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.subtitle {
+  display: block;
+  font-weight: normal;
+  font-size: 15px;
+  color: #959699;
+}
+
+a:hover .subtitle {
+  color: #FFF;
+}
+
+#site-title {
+  float: left;
+  margin: 0;
+}
+
+#content {
+  padding: 40px 0;
+}
+
+/* CSS from jQuery Background Video plugin */
+/**
+ * Set default positioning as a fallback for if the plugin fails
+ */
+.jquery-background-video-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jquery-background-video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/**
+ * Fade in videos
+ * Note the .js class - so non js users still
+ * see the video
+ */
+.js .jquery-background-video {
+  opacity: 0;
+  -webkit-transition: opacity 300ms linear;
+  transition: opacity 300ms linear;
+}
+
+.js .jquery-background-video.is-visible {
+  opacity: 1;
+}
+
+/**
+ * Pause/play button
+ */
+.jquery-background-video-pauseplay {
+  display:none;
+  position: absolute;
+  background: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  right: 15px;
+  padding: 0;
+  cursor: pointer;
+  outline: none !important;
+}
+
+.jquery-background-video-pauseplay span {
+  display: none;
+}
+
+.jquery-background-video-pauseplay:after,
+.jquery-background-video-pauseplay:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.jquery-background-video-pauseplay.play:before {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #FFF;
+}
+
+.jquery-background-video-pauseplay.pause:before,
+.jquery-background-video-pauseplay.pause:after {
+  border-top: 10px solid #FFF;
+  border-bottom: 10px solid #FFF;
+  border-left: 5px solid #FFF;
+}
+
+.jquery-background-video-pauseplay.pause:after {
+  left: 10px;
+}
+
