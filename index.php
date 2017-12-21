@@ -65,12 +65,11 @@
     </div>
   </div> 
 
-<div class="video-hero jquery-background-video-wrapper demo-video-wrapper" style="height:100%;">
-  <video class="jquery-background-video" autoplay muted loop poster="https://i.imgur.com/LrkhX2T.png">
-    <source src="misc/MolecularBackgroundSmall.mp4" type="video/mp4">
-    <!-- <source src="MolecularBackgroundSmall.webm" type="video/webm">
-    <source src="MolecularBackgroundSmall.ogv" type="video/ogg"> -->
-  </video>
+
+  <div class="video-hero jquery-background-video-wrapper demo-video-wrapper" style="height:100%;">
+  <video autoplay loop id="video-background" muted plays-inline>
+  <source src="misc/MolecularBackgroundSmall.mp4" type="video/mp4">
+</video>
 	  <div class="video-overlay"></div>
   	<div class="page-width">
 		    <div class="video-hero--content">
@@ -79,6 +78,24 @@
     		</div>
   	</div>
 </div>
+
+
+
+
+<!-- <div class="video-hero jquery-background-video-wrapper demo-video-wrapper" style="height:100%;">
+  <video class="jquery-background-video" autoplay muted loop poster="https://i.imgur.com/LrkhX2T.png">
+    <source src="misc/MolecularBackgroundSmall.mp4" autoplay muted loop type="video/mp4"> -->
+    <!-- <source src="MolecularBackgroundSmall.webm" type="video/webm">
+    <source src="MolecularBackgroundSmall.ogv" type="video/ogg"> -->
+  <!-- </video>
+	  <div class="video-overlay"></div>
+  	<div class="page-width">
+		    <div class="video-hero--content">
+			      <h2 style="color:white; !important">INTRO TEXT and Logo above</h2>
+			      <p>Extra text</p>
+    		</div>
+  	</div>
+</div> -->
 
 <div class="main-content">
   <section>
@@ -111,7 +128,7 @@
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi placeat dolor molestias facere veritatis culpa amet fugiat debitis dolorem qui quidem consequuntur mollitia, nesciunt pariatur voluptatum! Dolor accusamus labore, sequi.</p>
         </div>
   </section>
-  <section style="background-color:#dddddd;">
+  <section class="footer">
         <div class="container">
           <h2>Footer</h2>
           <p>ZealCoin <i class="far fa-copyright"></i></p>
@@ -125,6 +142,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://rawgit.com/BGStock/jquery-background-video/master/jquery.background-video.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+<script src="js/scrollreveal.js"></script>
 <script src="js/script.js"></script>
 
 
