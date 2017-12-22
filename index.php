@@ -22,7 +22,7 @@
 
 <body>
 
-
+<div class="mainContainer">
  <div class="navbar navbar-default navbar-fixed-top navbar--color--ghost navbar--size--md" data-startColor="navbar--color--ghost" data-startSize="navbar--size--md" data-intoColor="navbar--color--secondary" data-intoSize="navbar--size--m">
 
  <div class="container">
@@ -66,7 +66,7 @@
   </div> 
 
 
-  <div class="video-hero jquery-background-video-wrapper demo-video-wrapper" style="height:100%;">
+  <div class="video-hero jquery-background-video-wrapper demo-video-wrapper">
   <video autoplay loop id="video-background" muted plays-inline>
   <source src="misc/MolecularBackgroundSmall.mp4" type="video/mp4">
 </video>
@@ -78,8 +78,6 @@
     		</div>
   	</div>
 </div>
-
-
 
 
 <!-- <div class="video-hero jquery-background-video-wrapper demo-video-wrapper" style="height:100%;">
@@ -127,15 +125,22 @@
           <h3>TextTitleText</h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi placeat dolor molestias facere veritatis culpa amet fugiat debitis dolorem qui quidem consequuntur mollitia, nesciunt pariatur voluptatum! Dolor accusamus labore, sequi.</p>
         </div>
+
+
   </section>
   <section class="footer">
         <div class="container">
           <h2>Footer</h2>
           <p>ZealCoin <i class="far fa-copyright"></i></p>
-        </div>
+          <a href="www.google.com" target="_blank">
+            <i style="float:right; margin-left:20px; color:grey;" class="fab fa-github-alt fa-4x"></i>
+          </a>
+          <a href="www.google.com" target="_blank">
+            <i style="float:right; margin-left:20px; color:grey;" class="fab fa-discord fa-4x"></i>
+         </a>
   </section>
 </div>
-
+<div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>

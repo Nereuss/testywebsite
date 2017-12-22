@@ -1,5 +1,20 @@
 $('.jquery-background-video').bgVideo({fadeIn: 2000});
 
+$(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(window).innerHeight();
+    $('.video-hero').css('min-height', windowHeight);
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
+}); 
+
+window.sr = ScrollReveal({ duration: 2000 });
+sr.reveal('.container');
+
 
 // grabbing the class names from the data attributes
 var navBar = $('.navbar'),

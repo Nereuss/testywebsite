@@ -49,6 +49,8 @@ p {
   border: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  
+  
 /* --- navbar sizes --- */
 /* --- navbar colors --- */
 }
@@ -56,6 +58,7 @@ p {
   font-size: 2.25rem;
   font-weight: 900;
   color: #4b4b4b;
+  
 }
 .navbar--size--xl {
   padding: 4rem 0;
@@ -70,23 +73,41 @@ p {
   padding: 0;
 }
 .navbar--color--white {
-  background: #fff;
+  background: rgba(40, 40, 40, 0.99);
 }
 .navbar--color--primary {
   background: #37ca7e;
 }
 .navbar--color--secondary {
-  background: #f9fbff;
+  background: rgba(40, 40, 40, 0.99);
   box-shadow: 0 7px 4px -4px rgba(0, 0, 0, 0.05) !important; 
+  
 }
 .navbar--color--ghost {
   background: rgba(0,0,0,0.0);
+  
 }
 .navbar--color--ghost .navbar-brand,
 .navbar--color--ghost .navbar-text,
 .navbar--color--ghost a {
-  color: #fff;
+  color: rgba(29, 29, 29, 0.80);
+  
 }
+
+.blurNavbar{
+   background-size: cover;
+  filter: blur(13px);
+  position: absolute;
+  height: 300px;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: -50px;
+
+}
+
+
+
 
 /* The only rule that matters */
 #video-background {
@@ -117,7 +138,7 @@ p {
 }
 
 .nav-link {
-    color:#a5a5a5 !important;
+    color:#F2F2F2 !important;
   border-top: 4px solid rgba(0, 0, 0, 0.0);
   transition: border-top .3s;
 }
@@ -186,6 +207,7 @@ p {
   /* Allows right click menu on the video */
   /* background: url("https://d3k5xyayaartr5.cloudfront.net/_assets/pattern-overlays/patterns/black-medium-checks.png") left top repeat; */
   opacity: 0.3;
+  height:100%;
 }
 
 .video-hero--content {
@@ -194,6 +216,7 @@ p {
   color: #FFF;
   margin: 150px 0;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  
 }
 
 .video-hero--content h2 {
